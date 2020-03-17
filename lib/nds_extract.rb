@@ -8,6 +8,8 @@ def gross_for_director(director_data)
     gross_index += director_data[:movies][gross_index][:worldwide_gross]
     gross_index += 1
   end  
+  
+  return gross_index
 end
 
 
